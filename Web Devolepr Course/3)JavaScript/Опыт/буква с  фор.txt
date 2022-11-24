@@ -1,0 +1,4 @@
+var helloString = "Hello For Loop!";
+for (i = 0; i<helloString.length; i++){
+	console.log(helloString[i]);
+}

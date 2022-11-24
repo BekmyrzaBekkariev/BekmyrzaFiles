@@ -1,0 +1,21 @@
+*{
+	margin:0%;
+	padding:0%;
+}
+div{
+	padding: 
+}
+.shitch{
+	color:red;
+	position: relative;
+	top: 180px;
+	left: 900px;
+	background-color: blue;
+}
+body{
+	color: blue;
+	background-color: #da6f1f;
+}
+.in{
+	margin:30px;
+}

@@ -1,0 +1,51 @@
+var roSt = prompt('Ведите ваш рост в метрах');
+var aGe = prompt('Ведите ваш возраст')
+var ves = prompt('ведите ваш вес');
+
+var reshenie = ves / (roSt * roSt);
+var groupNumber;
+
+if(aGe >= 18 && aGe <= 25){
+	groupNumber = 1;
+}else if(aGe >25 && aGe <= 46){
+	groupNumber = 2;
+}else{
+	groupNumber =3;
+}
+
+if (groupNumber === 1 && reshenie < 17.5){
+	alert("Недостаточен, опасно для здоровья");
+}else if (groupNumber === 1 && reshenie >= 17.5 && reshenie < 19.5){
+	alert("Слегка снижен, неопасно для здоровья")
+}else if (groupNumber === 1 && reshenie >= 19.5 && reshenie < 23){
+	alert("Ваш вес нормальный");
+}else if (groupNumber === 1 && reshenie >= 23 && reshenie < 27.5){
+	alert("Ваш вес Излишний");
+}else if (groupNumber === 1 && reshenie >= 27.5 && reshenie < 30){
+	alert("Ожирение 1 степени");
+}else if (groupNumber === 1 && reshenie >= 30 && reshenie < 35){
+	alert("Ожирение 2 степени");
+}else if (groupNumber === 1 && reshenie >= 35 && reshenie < 40){
+	alert("Ожирение 3 степени");
+}else if (groupNumber === 1 && reshenie >= 40){
+	alert("Ожирение 4 степени");
+
+} else if (groupNumber === 2 && reshenie < 18){
+	alert("Недостаточен, опасно для здоровья");
+}else if (groupNumber === 2 && reshenie >= 18 && reshenie < 20){
+	alert("Слегка снижен, неопасно для здоровья")
+}else if (groupNumber === 2 && reshenie >= 20 && reshenie < 26){
+	alert("Ваш вес нормальный");
+}else if (groupNumber === 2 && reshenie >= 26 && reshenie < 28){
+	alert("Ваш вес Излишний");
+}else if (groupNumber === 2 && reshenie >= 28 && reshenie < 31){
+	alert("Ожирение 1 степени");
+}else if (groupNumber === 2 && reshenie >= 31 && reshenie < 36){
+	alert("Ожирение 2 степени");
+}else if (groupNumber === 2 && reshenie >= 36 && reshenie < 41){
+	alert("Ожирение 3 степени");
+}else if (groupNumber === 2 && reshenie >= 41){
+	alert("Ожирение 4 степени");
+}else if(groupNumber === 3){
+	alert("нет данных для вашего возраста");
+}

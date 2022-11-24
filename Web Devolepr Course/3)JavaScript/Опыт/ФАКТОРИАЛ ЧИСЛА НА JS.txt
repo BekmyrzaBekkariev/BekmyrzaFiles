@@ -1,0 +1,12 @@
+//‘¿ “Œ–»¿À ◊»—À¿ ”–¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿
+function factorial(NaturalNumber){
+	if (NaturalNumber < 0){
+		return 0;
+	}
+	var result = 1;
+	for (i = 1; i <= NaturalNumber; i++){
+		result = result * i;
+	}
+	return result;
+}
+console.log(factorial(5));//120

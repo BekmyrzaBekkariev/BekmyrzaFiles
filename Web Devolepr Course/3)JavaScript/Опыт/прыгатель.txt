@@ -1,0 +1,8 @@
+//прыгатель ураааааааааааааааааааааааааааааааааааааааааааааааааааааааааааааааааааааааааа
+
+// function changeSpaceToUnderscore(text) {
+// 	var resultText = text.replace(/ /g,"_");
+// 	return resultText;
+// }
+
+// console.log(changeSpaceToUnderscore("я ты он она мы вы все"));

@@ -1,0 +1,69 @@
+.navbar{
+    background-color: #0eb0d8;
+    font-size: 19px;
+}
+.carousel-inner{
+    font-size: 100px;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 100px;
+  width: 100px;
+  outline: black;
+  background-size: 100%, 100%;
+  background-image: none;
+}
+
+.carousel-control-next-icon:after
+{
+  content: '>';
+  font-size: 55px;
+  color: rgb(15, 119, 255);
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 55px;
+  color: rgb(15, 119, 255);
+}
+/* вот это не мог научился */
+.carousel-inner{
+    height: 90vh;
+}
+
+.carousel-caption {
+    top: 50px;
+    transform: translateY(-50%);
+    background-color: rgb(15, 119, 255 , 0.5);
+    /* Это для того что-бы убрать остаток bottom: initial; */
+    bottom: initial;
+}
+
+.card {
+  margin: 20px;
+}
+
+body {
+  background-color:rgb(208, 242, 255);
+}
+
+.row{
+  margin-top: 50px;
+}
+/* Конец сайта Ништяк научится надо! */
+footer{
+  margin-top: 50px;
+  background-color: #0eb0d8;
+  color: #fff;
+  padding: 3%;
+}
+
+.fab{
+  color: white;
+  font-size: 30px;
+  padding: 10px;
+}
+.fab:hover {
+  color: grey;
+}

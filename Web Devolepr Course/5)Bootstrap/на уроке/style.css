@@ -1,0 +1,22 @@
+body{
+    margin: 30px;
+    background-color: #1d1d1d1d;
+}
+
+body{
+     background-image: url("https://phonoteka.org/uploads/posts/2021-05/1621510091_15-phonoteka_org-p-samurai-fon-na-rabochii-stol-17.jpg"); 
+}
+
+.rek{
+    background-color: black;
+}
+.span{
+    color: antiquewhite;
+}
+
+.zagolovok{
+    background-color: blue;
+    font-size: 20px;
+    text-align: center;
+    color: red;
+}

@@ -1,0 +1,5 @@
+var h1 = document.getElementById("header");
+	    	// console.log(h1.innerHTML);
+	    	h1.addEventListener("click", function(){
+				h1.style.background = "red";	    		
+	    	});

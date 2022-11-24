@@ -1,0 +1,30 @@
+var section ="javascript";
+
+switch (section) {
+	case "html" :
+		console.log("вы изучаете раздел 'HTML' ");
+		break;
+	case "css" :
+		console.log("вы изучаете раздел 'CSS' ");
+		break;
+	case "javascript" :
+		console.log("вы изучаете раздел 'JavaScript' "); 
+		break;
+	default :
+		console.log("вы изучаете другой язык");
+}
+
+
+var userName = prompt("Веди что надо");
+
+switch ( userName){
+	case "12345" :
+		console.log("Вау как");
+		break;
+	case "jack" :
+		console.log("норм");
+		break;
+	default :
+		console.log("Мдаа не фортануло")
+}
+

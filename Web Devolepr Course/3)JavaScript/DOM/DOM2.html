@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script type="text/javascript" src="DOM2.js"></script>
+	<title>JavaScriptDOM</title>
+</head>
+<body>
+	<!-- <div class="dom">
+		<h1 class="header">What is the HTML DOM?</h1>
+		<p>The HTML DOM is a standard object model and programming interface for HTML. It defines:</p>
+	    <ul>
+	    	<li class="firstThreeElements">The HTML elements as objects</li>
+	    	<li class="firstThreeElements">The properties of all HTML elements</li>
+	    	<li id ="ThirdElement">The methods to access all HTML elements</li>
+	    	<li class="anotherElements">The events for all HTML elements</li>
+	    	<li class="anotherElements">The events for all HTML elements</li>
+	    </ul>
+		<a href="http://google.com">Link</a><br> -->
+		<button>Change the color</button>
+	    <script>
+
+	    	// document.getElementById("dem").textContent = "DOM - lamba"; 
+	    	// document.getElementByTagName("li");
+	    	// document.querySelector("#header").textContent;
+	    	// var li3 = document.getElementById("ThirdElement");
+	    	// li3.style.color = "blue";
+	    	// li3.style.fontsize = "30px";
+	    	// li3.style.background = "red";
+	    	// li3.style.margin = "20px";
+	    	// var image = document.getElementByTagName("img");
+	    	// image[0].getAttribute("src");
+	    	// image[0].setAttribute("src" , "2.jpg");
+
+	    	// var link = document.getElementByTagName("a");
+	    	// console.log( link[0].getAttribute("href"));
+	    	// link[0].setAttribute("href", "http://masters-of-code.com");
+
+	   //  	var h1 = document.getElementById("header");
+	   //  	// console.log(h1.innerHTML);
+	   //  	h1.addEventListener("click", function(){
+				// h1.style.background = "red";	    		
+	   //  	});
+
+	   		// var  liElements = document.querySelectorAll("li");
+	   		// console.log(liElements);
+
+	   		// for( var i = 0; i < liElements.length; i++) {
+	   		// 	liElements[i].addEventListener("click", function(){
+	   		// 		this.style.color = "blue";
+	   		// 	});
+	   		// }
+
+	   		var button = document.querySelectorAll("button");
+	   		var isBackgroundAppLied = false;
+
+	   		button.addEventListener("click", function(){
+	   			if (isBackgroundAppLied === false) {
+	   				document.querySelector("body").style.background = "blue";
+	   				isBackgroundAppLied = true;
+	   			}else{
+	   				document.querySelector("body")..style.background = "white";
+	   				isBackgroundAppLied = false;
+	   			}
+	   		});
+
+	    </script>
+
+	</div>
+</body>
+</html>

@@ -1,0 +1,399 @@
+// jQuery('document').ready(function(){
+	// jQuery('body').append('<a href="">Перейти в...</a>');
+	// jQuery('hr').remove();
+
+	// var p_clon;
+
+	// p_clon = jQuery('p').clone();
+
+	// jQuery('body').append(p_clon);
+
+	// var p1,p2;
+
+	// p1 = 25;
+	// p2 = p1;
+	// alert(p1 + p2);
+
+	// alert(Math.sqrt(5*5))
+
+// 	var katet1,katet2;
+// 	katet1 = 10;
+// 	katet2 = 20;
+
+// 	var katet1_sq, katet2_sq;
+// 	katet1_sq = katet1 * katet1;
+// 	katet2_sq = katet2 * katet2;
+
+// 	var kvadr_gepa;
+// 	kvadr_gepa = Math.sqtr(katet1_sq + katet2_sq);
+
+// 	var kvadr_dlin;
+// 	kvadr_dlin = Math.sqtr(kvadr_gepa);
+
+// 	alert(kvadr_dlin);
+
+
+	// jQuery('button').on('click',function(){
+	// 	var value1, value2, value3;
+	// 	value1=jQuery('#val1').val();
+	// 	value2=jQuery('#val2').val();
+	// 	value1=parseInt(value1);
+	// 	value2=parseInt(value2);
+	// 	value3=value1+value2;
+	// 	alert(value3);
+		
+
+	// });
+	// jQuery('input').on('keyup',function(){
+	// 	var value1, value2, value3;
+	// 	value1=jQuery('#val1').val();
+	// 	value2=jQuery('#val2').val();
+	// 	value1=parseInt(value1);
+	// 	value2=parseInt(value2);
+	// 	value3=value1*value2;
+	// 	jQuery('#rezultat').html(value3);
+	// });
+
+
+	//var test1;
+	//test1 = prompt('Ведите ваше имя:','Алексей');
+	//jQuery('#rezultat').html(test1);
+	// test1=confirm('EE&')
+
+
+	// var a1 = 555;
+	// if (a1==555){
+	// 	alert('Good');
+	// }else{
+	// 	alert('False');
+	// }
+
+// 	var pogoda = 'дождь'
+// 	var time = 'ночь'
+
+// 	if ((pogoda == 'солнечно' || pogoda == 'облачно')&& time == 'день'){
+// 		alert('Можно ехать на пикник! Ураа!');
+// 	}else if (pogoda == 'дождь' && time == 'день'){
+// 		alert('еать можно , но нужно взять зонты!');
+// 	}else{
+// 		if(time == 'день'){
+// 			alert('На пикник ехать нельзя плохая погода. Сейчас ведь'+pogoda+'.\nКакой-там блин пикник...');
+// 		}else{
+
+// 			var message = 'Какой-там пикник Сейчас же дождь!!!';
+// 			if(pogoda == 'дождь'){
+// 				message = message + '\nКтому же льет дождь ты совсем чтоли дурак';
+// 			}
+// 			alert(message);
+// 		}
+// 	}
+// });
+
+
+
+// var roSt = prompt('Ведите ваш рост в метрах');
+// var aGe = prompt('Ведите ваш возраст')
+// var ves = prompt('ведите ваш вес');
+
+// var reshenie = ves / (roSt * roSt);
+// var groupNumber;
+
+// if(aGe >= 18 && aGe <= 25){
+// 	groupNumber = 1;
+// }else if(aGe >25 && aGe <= 46){
+// 	groupNumber = 2;
+// }else{
+// 	groupNumber =3;
+// }
+
+// if (groupNumber === 1 && reshenie < 17.5){
+// 	alert("Недостаточен, опасно для здоровья");
+// }else if (groupNumber === 1 && reshenie >= 17.5 && reshenie < 19.5){
+// 	alert("Слегка снижен, неопасно для здоровья")
+// }else if (groupNumber === 1 && reshenie >= 19.5 && reshenie < 23){
+// 	alert("Ваш вес нормальный");
+// }else if (groupNumber === 1 && reshenie >= 23 && reshenie < 27.5){
+// 	alert("Ваш вес Излишний");
+// }else if (groupNumber === 1 && reshenie >= 27.5 && reshenie < 30){
+// 	alert("Ожирение 1 степени");
+// }else if (groupNumber === 1 && reshenie >= 30 && reshenie < 35){
+// 	alert("Ожирение 2 степени");
+// }else if (groupNumber === 1 && reshenie >= 35 && reshenie < 40){
+// 	alert("Ожирение 3 степени");
+// }else if (groupNumber === 1 && reshenie >= 40){
+// 	alert("Ожирение 4 степени");
+
+// } else if (groupNumber === 2 && reshenie < 18){
+// 	alert("Недостаточен, опасно для здоровья");
+// }else if (groupNumber === 2 && reshenie >= 18 && reshenie < 20){
+// 	alert("Слегка снижен, неопасно для здоровья")
+// }else if (groupNumber === 2 && reshenie >= 20 && reshenie < 26){
+// 	alert("Ваш вес нормальный");
+// }else if (groupNumber === 2 && reshenie >= 26 && reshenie < 28){
+// 	alert("Ваш вес Излишний");
+// }else if (groupNumber === 2 && reshenie >= 28 && reshenie < 31){
+// 	alert("Ожирение 1 степени");
+// }else if (groupNumber === 2 && reshenie >= 31 && reshenie < 36){
+// 	alert("Ожирение 2 степени");
+// }else if (groupNumber === 2 && reshenie >= 36 && reshenie < 41){
+// 	alert("Ожирение 3 степени");
+// }else if (groupNumber === 2 && reshenie >= 41){
+// 	alert("Ожирение 4 степени");
+// }else if(groupNumber === 3){
+// 	alert("нет данных для вашего возраста");
+// }
+
+
+
+
+
+// var firstName, lastName, fulname, age;
+// firstName = "vasya";
+// console.log(firstName);
+// firstName = "Peta";
+// console.log(firstName);
+// lastName = "Ivanov";
+// console.log(lastName);
+// fulname = firstName +" " + lastName;
+// console.log(fulname);
+// age = 15;
+// console.log(age);
+// var pleyer = "fd"
+// pleyer = null;
+// console.log(pleyer);
+// var firstName = "vasya";
+// firstName = prompt("what is your name?");
+// console.log(firstName);
+
+// var firstName, lastName, age;
+// firstName = prompt("what is your name?");
+// lastName = prompt("what is your lastName?");
+// age = prompt("what is your age?")
+// console.log("Пользователь:" + firstName + " " + lastName);
+// console.log("Возраст:"+ " " + age);
+
+// var numberOfDollars = prompt("Веите сколько доларов нужно перевсти");
+// alert("Вы получите" + " " +numberOfDollars * 84.78 + "сомов" );
+
+// var x = 5;
+// var y = "5";
+// var isXMore = x === y;
+
+// console.log(isXMore);
+
+// var y = 10;
+// x = ++y;
+// console.log(x,y);
+
+// var rost = prompt("Ведите ваш рост в метрах");
+// var kg = prompt("Ведите ваш вес в килограммах");
+// var reshenie = kg/(rost*rost);
+// var itog = reshenie > 28;
+// alert("У вас лишний вес:"+ " " + itog); 
+
+// var x = prompt("Веди пороль:");
+// if (x == 12345, x == 123){
+// 	alert("Welkom");
+// }else{
+// 	alert("GO ne nash")
+// }
+
+// var rost = prompt("Ведите ваш рост в метрах");
+// var kg = prompt("Ведите ваш вес в килограммах");
+// var reshenie = kg/(rost*rost);
+// if(reshenie >= 28){
+// 	alert("Ты жирный");
+// }else{
+// 	alert("Воу норм так держать!");
+// }
+
+// var userName = prompt("whar is your name");
+// var userAge = prompt("whar is your age");
+
+// if (userAge>=18){
+// 	alert(userName +" "+ "привет взрослый");
+// }else{
+// 	alert("привет юнуша");
+// }
+
+
+
+// var userName = "Jack";
+// var userWeight = 87;
+
+// if(userWeight > 90 ){
+// 	console.log(userName + "2")
+// }else{
+// 	console.log(userName + "3")
+// }
+
+// userName > 90 ? console.log(userName + "2") : console.log(userName + "3");
+
+// var x = 10;
+// var y = 11;
+// y >= 11 ? console.log(2) : console.log(4);
+
+
+
+// var section ="javascript";
+
+// switch (section) {
+// 	case "html" :
+// 		console.log("вы изучаете раздел 'HTML' ");
+// 		break;
+// 	case "css" :
+// 		console.log("вы изучаете раздел 'CSS' ");
+// 		break;
+// 	case "javascript" :
+// 		console.log("вы изучаете раздел 'JavaScript' "); 
+// 		break;
+// 	default :
+// 		console.log("вы изучаете другой язык");
+// }
+
+
+// var userName = prompt("Веди что надо");
+
+// switch ( userName){
+// 	case "12345" :
+// 		console.log("Вау как");
+// 		break;
+// 	case "jack" :
+// 		console.log("норм");
+// 		break;
+// 	default :
+// 		console.log("Мдаа не фортануло")
+// }
+
+
+// var aGe = 10;
+// var groupNumber;
+
+// if(aGe >= 18 && aGe <= 25){
+// 	groupNumber = 1;
+// }else if(aGe >25 && aGe <= 46){
+// 	groupNumber = 2;
+// }else{
+// 	groupNumber =3;
+// }
+
+// console.log(groupNumber);
+
+// switch(true) {
+// 	case aGe >= 18 && aGe <= 25 :
+// 		groupNumber = 1;
+// 		break;
+// 	case aGe >25 && aGe <= 46 :
+// 		groupNumber = 2;
+// 		break;
+// 	default :
+// 	groupNumber =3;
+// }
+  
+// console.log(groupNumber);
+
+
+
+// var name = prompt("Ведите логин:");
+// var password = prompt("Ведите ваш пороль:");
+// switch (name , password){
+// 	case "Вася":
+// 	case "1111":
+// 		alert("Добро пожаловат Вася");
+// 		break;
+// 	case "Ваня":
+// 	case "2222":
+// 		alert("Добро пожаловат Ваня");
+// 		break;
+// 	case  "Admin":
+// 	case "Admin":
+// 		alert("Добро пожаловат Admin Вы можете редактировать сайт");
+// 		break;
+// 	default:
+// 		alert("Ваш логин или пороль не правильный");
+// }
+
+
+//****************РЕШЕНИЕ ЗАДАЧИ PASSWORD*****************************************
+// var userName = prompt("Ведите логин:");
+// var password = prompt("Ведите ваш пороль:");
+
+// switch (true){
+// 	case userName === "Вася" && password === "1111":
+// 		alert("Добро пожаловат Вася");
+// 		break;
+// 	case userName === "Ваня" && password === "2222":
+// 		alert("Добро пожаловат Ваня");
+// 		break;
+// 	case userName === "Лена" && password === "3333":
+// 		alert("Добро пожаловат Лена");
+// 		break;
+// 	case userName === "Джек" && password === "4444":
+// 		alert("Добро пожаловат Джек");
+// 		break;
+// 	case userName === "Админ" && password === "1111":
+// 		alert("Добро пожаловат Админ");
+// 		break;
+// 	default:
+// 		alert("Ваш логин или пороль не правильный");
+// }
+
+
+// var x = 1;
+
+// while(x <= 10 ){
+// 	console.log(x);
+// 	++x;
+// }
+
+// var t = 1;
+
+// while(t<5){
+// 	console.log(t);
+// 	t++;
+// }
+
+// var helloString = "Hello JavaScript!"
+// var count = 0;
+
+// while(count < helloString.length){
+// 	console.log(helloString[count]);
+// 	count++;
+// }
+
+
+// var count = 1
+// while (  count<5){
+// 	console.log(count);
+// 	count++;
+// }
+
+// for (count = 1; count<=10; count++){
+// 	console.log(count);
+// }
+
+
+// for (x = 1; x<= 10; x++){
+// 	console.log(x);
+// }
+
+
+// for (y = 1; y <=50; y++){
+// 	console.log(y);
+// }
+
+// var helloString = "Hello For Loop!";
+// for (i = 0; i<helloString.length; i++){Ы
+// 	console.log(helloString[i]);
+// }
+
+// var rec = "hello of student rechion for is";
+
+// for (i=0; i<rec.length; i++){
+// 	console.log(rec[i]);
+// }
+
+var riv = 10;
+for (i=0; i<10; i+2){
+	console.log(i);
+}
