@@ -45,18 +45,109 @@
 # print(f'Максимум {m}')
 
 # 2 Ч
+# a = int(input("Ведите a: "))
+# b = int(input("Ведите b: "))
+# c = int(input("Ведите c: "))
 
-a = int(input("Ведите a: "))
-b = int(input("Ведите b: "))
-c = int(input("Ведите c: "))
+# if a > b:
+#     if a > c:
+#         print(f'Максимум = {a}')
+#     else:
+#         print(f'Максимум = {c}')
+# else:
+#     if b > c:
+#         print(f'Максимум = {b}')
+#     else:
+#         print(f'Максимум = {c}')
 
-if a > b:
-    if a > c:
-        print(f'Максимум = {a}')
-    else:
-        print(f'Максимум = {c}')
-else:
-    if b > c:
-        print(f'Максимум = {b}')
-    else:
-        print(f'Максимум = {c}')
+# 1.6 Алгоритм с условиями Часть 2
+# num = int(input('Ведите целое число: '))
+# ans = input('b- в байты  k- килобайты: ')
+# if ans == 'b':
+#     print(f'{num} Кб = {num * 1024} байт')
+# elif ans == 'k':
+#     print(f'{num} байт = {num / 1024} Кб')
+# else:
+#     print('Неверный ввод')
+
+
+# Разбор ДЗ первого этапа
+# 1. Выполнить логические побитовые операции «И», «ИЛИ» и др. над числами 5 и 6. Выполнить над числом 5 побитовый сдвиг вправо и влево на два знака.
+# a = 5
+# print(f'{a} = {bin(a)}')
+# b = 6
+# print(f'{b} = {bin(b)}')
+
+# # AND
+# print(f'{a} and {b} = {a & b} ({bin(a & b)})')
+# # OR
+# print(f'{a} and {b} = {a | b} ({bin(a | b)})')
+# # XOR
+# print(f'{a} and {b} = {a ^ b} ({bin(a ^ b)})')
+
+# print(f'{a} >> 2 = {a >> 2} ({bin(a >> b)})')
+# print(f'{a} >> 2 = {a << 2} ({bin(a << b)})')
+
+# 2. По введенным пользователем координатам двух точек вывести уравнение прямой вида y = kx + b, проходящей через эти точки.
+# print('Координаты точки А(x1, y1): ')
+# x1 = float(input('x1 = '))
+# y1 = float(input('y1 = '))
+
+# print('Координаты точки B(x2, y2): ')
+# x2 = float(input('x2 = '))
+# y2 = float(input('y2 = '))
+
+# print('Уравнение прямой, проходящей через эти точки: ')
+# if x1 == x2:
+#     print(f'x = {x1:.2f}')
+# else:
+#     k = (y1 - y2) / (x1 - x2)
+#     b = y2 - k * x2
+#     print(f'y = {k:.2f} * x + {b:.2f}')
+
+# 3. Написать программу, которая генерирует в указанных пользователем границах:
+# a. случайное целое число,
+# b. случайное вещественное число,
+# c. случайный символ.
+# Для каждого из трех случаев пользователь задает свои границы диапазона. Например, если надо получить случайный символ от 'a' до 'f', то вводятся эти символы. Программа должна вывести на экран любой символ алфавита от 'a' до 'f' включительно.
+
+# import random
+
+# num_start = input('Начало диапозона: ')
+# num_end = input('Конец диапозона: ')
+# choice = input(
+#     'Ведите номер действия:\n1. Случайное целое число\n''2. Cлучайное вещественное число\n3.Слуйсайный символ\n')
+
+# if choice == '1':
+#     print('Случайное целое число')
+#     num_start = int(num_start)
+#     num_end = int(num_end)
+#     result = random.randint(num_start, num_end)
+
+# elif choice == '2':
+#     print('Cлучайное вещественное число')
+#     num_start = float(num_start)
+#     num_end = float(num_end)
+#     result = random.uniform(num_start, num_end)
+
+# elif choice == '3':
+#     print('Слуйсайный символ')
+#     num_start = ord(num_start)
+#     num_end = ord(num_end)
+#     result = chr(random.randint(num_start, num_end))
+
+# else:
+#     result = 'Неизвестное действие'
+
+# print(result)
+
+# 4. Пользователь вводит две буквы. Определить, на каких местах алфавита они стоят, и сколько между ними находится букв.
+
+first = input('1-я буква: ')
+second = input('2-я буква: ')
+
+first = ord(first) - ord('a') + 1
+second = ord(second) - ord('a') + 1
+
+print(f'Порядковый номер 1-й буквы = {first}, 2-й = {second}')
+print(f'Число букв мужду введёнными: {abs(first - second) - 1}')
