@@ -198,13 +198,41 @@
 
 # 8. Вводятся три разных числа. Найти, какое из них является средним (больше одного, но меньше другого).
 
-a = int(input('1 = '))
-b = int(input('2 = '))
-c = int(input('3 = '))
+# a = int(input('1 = '))
+# b = int(input('2 = '))
+# c = int(input('3 = '))
 
-if b < a < c or c < a < b:
-    print('Среднее:', a)
-elif a < b < c or c < b < a:
-    print('Среднее:', b)
-else:
-    print('Среднее:', c)
+# if b < a < c or c < a < b:
+#     print('Среднее:', a)
+# elif a < b < c or c < b < a:
+#     print('Среднее:', b)
+# else:
+#     print('Среднее:', c)
+
+
+# --------------------------2. Циклы, рекурсия, функции
+# Цикл с предусловием
+# num = int(input('Ведите целое число'))
+# while num > 0:
+#     print(num % 10)
+#     num //= 10
+
+# Цикл с постусловием
+# while True:
+#     num = float(input('Ведите чила от 0 до 100: '))
+#     if num >= 0 and num <= 100:
+#         break
+# print('Этот вывод вне цикла.')
+
+# Цикл с параметром
+# while
+# i = 0
+# while i <= 10:
+#     print(i)
+#     i += 1
+# for
+# for i in range(11):
+#     print(i)
+# мой пример
+for i in range(int(input('Ведите до скольки'))):
+    print(i + 1)
