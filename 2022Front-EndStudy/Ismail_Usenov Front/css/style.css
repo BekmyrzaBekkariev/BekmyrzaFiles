@@ -1,0 +1,30 @@
+* {
+  color: darkblue;
+  background-color: #dce5e7;
+}
+
+h1 {
+  color: aqua;
+  background-color: #234234;
+}
+/* class */
+.element {
+  color: blueviolet;
+  background-color: #dce5e7;
+}
+
+#idd {
+  color: cornflowerblue;
+  background-color: #004156;
+}
+
+div[title] {
+  color: mediumvioletred;
+  background-color: #cbe724;
+}
+
+.logo {
+  color: brown;
+  background-image: url(../css/Hydrangeas.jpg);
+  background-repeat: no-repeat;
+}
