@@ -1,30 +1,59 @@
-* {
-  color: darkblue;
-  background-color: #dce5e7;
+.box {
+  box-sizing: border-box;
+  width: 150px;
+  height: 150px;
+  border: 1px black solid;
 }
 
-h1 {
-  color: aqua;
-  background-color: #234234;
-}
-/* class */
-.element {
-  color: blueviolet;
-  background-color: #dce5e7;
+.box1 {
+  background-color: #ff5f5f;
+  padding: 10px;
 }
 
-#idd {
-  color: cornflowerblue;
-  background-color: #004156;
+.box2 {
+  background-color: rgb(90, 84, 255);
+  padding: 10px;
 }
 
-div[title] {
-  color: mediumvioletred;
-  background-color: #cbe724;
+a:hover {
+  text-decoration: none;
+  color: #ff5f5f;
+  font-family: Courier;
+  font-size: 50px;
+}
+button {
+  cursor: w-resize;
 }
 
-.logo {
-  color: brown;
-  background-image: url(../css/Hydrangeas.jpg);
-  background-repeat: no-repeat;
+p {
+  border: 5px gold solid;
+  border-radius: 10px;
+  border-style: groove;
+  width: 300px;
+  color: chartreuse;
+}
+p:hover {
+  color: darkcyan;
+}
+
+.menu li:nth-child(odd) {
+  color: #ff5f5f;
+}
+
+hr {
+  height: 2px;
+  background-color: #444444;
+}
+
+table tr:nth-child(even) {
+  background-color: #333333;
+  color: #fff;
+}
+
+.content {
+  font-size: 30px;
+}
+
+.content::before {
+  content: '\00A9';
 }
