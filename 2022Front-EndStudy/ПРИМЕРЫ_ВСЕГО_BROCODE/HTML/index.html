@@ -8,6 +8,7 @@
     <!--Названия вкладки -->
   </head>
   <body>
+    <!-- https://colorpicker.me/ -->
     JUST A TEXT WHITH OUT TEG
     <!-- Просто текст -->
     <!-- Coments -->
@@ -155,6 +156,7 @@
     </dl>
     <hr />
     <!-- Таблца -->
+    <!-- И div - для упровления определенным участкам -->
     <!-- 
     table - это где пишется таблица
     tr    - это ячейка
@@ -198,5 +200,42 @@
         earum.
       </p>
     </div>
+
+    <!--span-->
+    <h2>
+      Lorem
+      <span style="color: red"
+        >This text was use with teg span. Aliquid molestiae </span
+      >tempora dolore.
+    </h2>
+
+    <!-- iframe -->
+    <!-- <iframe src="https://31three.com/" width="1200" height="300"> -->
+    <!-- 2 Пример в iframe
+    Соединяем с 2 html файлом -->
+    <!-- <iframe src="index2.html" style="border:0;"  width="750" height="100"> -->
+
+    <!-- Кнопка - Работает -->
+    <button>Click me</button>
+
+    <!-- Кнопка с ссылкой -->
+    <a href="https://yandex.eu/" target="_blank">
+      <button
+        style="background-color: #333333; color: #00ff00; border-radius: 10px"
+      >
+        GO! To Yandex
+      </button>
+    </a>
+
+    <!-- Кнопка с Функцией JS -->
+    <button onclick="doSomething()">Button JS</button>
+
+    <p id="test">Hello</p>
+
+    <script>
+      function doSomething() {
+        document.getElementById('test').innerHTML = 'Goodbay';
+      }
+    </script>
   </body>
 </html>
