@@ -237,5 +237,168 @@
         document.getElementById('test').innerHTML = 'Goodbay';
       }
     </script>
+
+    <!-- form, input -->
+    <!-- 
+    <label for="здесь имя">Сюда вопрос для input</label> 
+    placeholder - для записи внутри инпута 
+    required - для того чтобы поле было обезательным!!!!!
+
+    type="text"
+    type="email"
+    type="tel"
+    type="password"
+    type="date"
+    type="reset"
+    type="submit"
+    type="number"  min="0" max="99" 
+    type="radio" name="title" - делает только для обного выбор!!!
+    type="checkbox" - галочка
+
+    <br/> можно для input только когда input в div - е ВОТ!
+
+    <select></select> - выбор
+    -->
+
+    <form action="">
+      <div>
+        <label for="">Здесь Вопрос</label>
+        <input type="text" placeholder="Здесь ответ" />
+      </div>
+
+      <br />
+
+      <div>
+        <label for="look">first name</label>
+        <input
+          type="text"
+          name="look"
+          id="look"
+          placeholder="Внутри инпут Охренеть"
+          required
+        />
+      </div>
+
+      <br />
+
+      <div>
+        <label for="lookA">Last name</label>
+        <input
+          type="text"
+          name="lookA"
+          id="lookA"
+          placeholder="Сууууууууууууу!"
+          required
+        />
+      </div>
+
+      <br />
+
+      <div>
+        <label for="lookE">Email</label>
+        <input
+          type="email"
+          name="lookE"
+          id="lookE"
+          placeholder="Вам почта нужна"
+          required
+        />
+      </div>
+
+      <br />
+
+      <div>
+        <label for="lookT">Telephon</label>
+        <input
+          type="tel"
+          name="lookT"
+          id="lookT"
+          placeholder="Алоо? вы меня слышите? "
+          required
+        />
+      </div>
+
+      <br />
+
+      <div>
+        <label for="lookP">password</label>
+        <input
+          type="password"
+          name="lookP"
+          id="lookP"
+          placeholder="Где деньги Либовский?!"
+          required
+        />
+      </div>
+
+      <br />
+
+      <div>
+        <label for="lookD">Date</label>
+        <input
+          type="date"
+          name="lookD"
+          id="lookD"
+          placeholder="Сегодня Какое?"
+          required
+        />
+      </div>
+
+      <br />
+
+      <div>
+        <label for="lookN">Date</label>
+        <input
+          type="number"
+          name="lookN"
+          id="lookN"
+          placeholder="Число"
+          required
+        />
+      </div>
+
+      <br />
+
+      <div>
+        <label for="title">title:</label>
+
+        <label for="Mr.">Mr.</label>
+        <input type="radio" id="Mr." name="title" value="Mr." />
+
+        <label for="Mrs.">Mrs.</label>
+        <input type="radio" id="Mrs." name="title" value="Mrs." />
+
+        <label for="PhD.">PhD.</label>
+        <input type="radio" id="PhD." name="title" value="PhD." />
+      </div>
+
+      <br />
+
+      <div>
+        <label for="payment">payment:</label>
+        <select name="payment" id="payment">
+          <option value="visa">visa</option>
+          <option value="mastercard">mastercard</option>
+          <option value="giftcard">giftcard</option>
+        </select>
+      </div>
+
+      <br />
+
+      <div>
+        <label for="subscribe">subscribe:</label>
+        <input type="checkbox" name="subscribe" id="subscribe" />
+      </div>
+
+      <div>
+        <input type="reset" />
+      </div>
+
+      <br />
+
+      <div>
+        <input type="submit" />
+      </div>
+    </form>
   </body>
 </html>
