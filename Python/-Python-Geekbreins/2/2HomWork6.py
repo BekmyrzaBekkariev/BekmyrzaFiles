@@ -10,6 +10,6 @@ for i in range(1, 11):
         print("Число больше")
     else:
         print(f"Вы угадали с {i}-й попытки")
-        break2
+        break
 else:
     print(f" Поражение. Было загадано {num}")

@@ -1,0 +1,74 @@
+#color {
+  color: red;
+}
+
+#background-color {
+  background-color: teal;
+}
+
+#p-id {
+  background-color: yellow;
+}
+
+.p--class {
+  background-color: skyblue;
+}
+
+#font-family {
+  font-family: 'consolas', sans-serif;
+}
+
+#font-family2 {
+  font-family: 'Press Start 2P';
+}
+
+#font-style {
+  font-style: italic;
+}
+
+#font-weight {
+  font-weight: bold;
+}
+#text-decoration {
+  text-decoration: cyan dotted underline;
+}
+
+#font-size {
+  font-size: 25px;
+}
+
+#border-one {
+  border-top: dotted;
+  border-bottom: solid;
+  border-left: double;
+  border-left-width: 10px;
+  border-left-color: blue;
+  border-right: double;
+  border-right-width: 20px;
+  border-right-color: red;
+}
+
+#border {
+  border: outset;
+  border-color: gold;
+  border-width: 5px;
+  border-radius: 10px;
+  font-size: 20px;
+}
+
+/* Градиент - для него есть положение откуда - куда 
+to top, 
+to left, 
+to right, 
+*/
+
+#img-pr1 {
+  /* background-color: skyblue;  - Фон цветом*/
+  background: linear-gradient(to top, skyblue, lightgreen);
+  background-repeat: no-repeat;
+}
+#img-pr2 {
+  /* background-color: skyblue;  - Фон цветом*/
+  background: linear-gradient(to top, skyblue, lightgreen);
+  background-repeat: no-repeat;
+}
