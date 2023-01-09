@@ -61,14 +61,29 @@ to top,
 to left, 
 to right, 
 */
+/* background-color: skyblue;  - Фон цветом*/
+/* background-image: url(/city.jpg); - Задний фон */
 
+/* На заметку для фона изображения
+body {
+  background-image: url(/city.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+} */
+#img-pr {
+  background-image: url(/city.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
 #img-pr1 {
-  /* background-color: skyblue;  - Фон цветом*/
-  background: linear-gradient(to top, skyblue, lightgreen);
+  background: linear-gradient(to right, skyblue, white);
   background-repeat: no-repeat;
 }
 #img-pr2 {
-  /* background-color: skyblue;  - Фон цветом*/
-  background: linear-gradient(to top, skyblue, lightgreen);
+  background: linear-gradient(to left, skyblue, white);
   background-repeat: no-repeat;
 }
