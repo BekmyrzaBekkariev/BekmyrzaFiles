@@ -73,7 +73,7 @@ body {
   background-size: cover;
 } */
 #img-pr {
-  background-image: url(/city.jpg);
+  background-image: url(source/city.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
@@ -86,4 +86,42 @@ body {
 #img-pr2 {
   background: linear-gradient(to left, skyblue, white);
   background-repeat: no-repeat;
+}
+
+/* margin */
+/* На заметку для того чтобы обекты не выходили из своего заданного размера но при этом можно было изменятть padding margin 
+* {
+  box-sizing: border-box;
+}*/
+
+#box0 {
+}
+#box1 {
+  border: 5px black solid;
+  width: 250px;
+  height: 250px;
+  font-size: 22px;
+  background-color: greenyellow;
+  margin-left: 30%;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  padding: 15px;
+}
+
+#box2 {
+  border: 5px black solid;
+  width: 250px;
+  height: 250px;
+  font-size: 22px;
+  background-color: dodgerblue;
+  margin-top: 10px;
+  padding: 15px;
+}
+
+/* float */
+.float-c {
+  float: right;
+}
+.float- {
+  float: left;
 }
