@@ -125,3 +125,86 @@ body {
 .float- {
   float: left;
 }
+
+.box {
+  width: 100px;
+  height: 100px;
+  font-size: 40px;
+  border: 1px black solid;
+  text-align: center; /*Положение Центр */
+  background-color: tomato;
+
+  float: left;
+}
+
+.box1 {
+  width: 100px;
+  height: 100px;
+  font-size: 40px;
+  border: 1px black solid;
+  text-align: center;
+  background-color: tomato;
+
+  float: right;
+}
+
+.box2 {
+  width: 100px;
+  height: 100px;
+  font-size: 40px;
+  border: 1px black solid;
+  text-align: center;
+  background-color: tomato;
+
+  float: right;
+}
+
+.clear {
+  clear: both;
+  background-color: lightgrey;
+}
+
+/* position */
+
+#box-p1 {
+  border: 1px black solid;
+  width: 150px;
+  height: 150px;
+  background-color: skyblue;
+
+  position: relative;
+
+  top: 50px;
+  left: 50px;
+}
+
+#box-p2 {
+  border: 1px black solid;
+  width: 100px;
+  height: 100px;
+  background-color: tomato;
+  margin-bottom: 5px;
+  top: 50px;
+}
+
+#box-p3 {
+  border: 1px black solid;
+  width: 150px;
+  height: 150px;
+  background-color: skyblue;
+
+  position: sticky;
+  bottom: 0;
+}
+
+#box-p4 {
+  border: 1px black solid;
+  width: 75px;
+  height: 75px;
+  background-color: tomato;
+
+  position: absolute;
+
+  top: 37px;
+  left: 37px;
+}
