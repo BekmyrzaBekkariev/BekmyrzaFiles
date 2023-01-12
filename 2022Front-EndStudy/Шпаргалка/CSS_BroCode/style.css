@@ -192,9 +192,10 @@ body {
   width: 150px;
   height: 150px;
   background-color: skyblue;
-
+  position: relative;
+  /* ПРЕСЛЕДУЩИЙ ЭЛЕМЕНТ ДО СВОЕГО МЕСТА
   position: sticky;
-  bottom: 0;
+  bottom: 5px; */
 }
 
 #box-p4 {
@@ -207,4 +208,53 @@ body {
 
   top: 37px;
   left: 37px;
+}
+#google {
+  font-size: 30px;
+}
+#google:link {
+  color: lawngreen;
+}
+
+#google:link {
+  color: grey;
+}
+
+#google:hover {
+  color: tomato;
+}
+
+#google:active {
+  color: yellow;
+}
+
+#button {
+  font-size: 30px;
+}
+
+#button:hover {
+  color: lightgray;
+}
+
+#button:active {
+  background-color: white;
+}
+
+li {
+  font-size: 30px;
+}
+/* Указываем где будет задний цвет 4 */
+/* nth-child(3n) Каждый трейтий */
+.nth:nth-child(3) {
+  background-color: yellow;
+}
+
+/* 
+nth-child(even) - Четные 
+nth-child(odd)  - Нечетные */
+.evenodd:nth-child(even) {
+  background-color: skyblue;
+}
+.evenodd:nth-child(odd) {
+  background-color: powderblue;
 }
