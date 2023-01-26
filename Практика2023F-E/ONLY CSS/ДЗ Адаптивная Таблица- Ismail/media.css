@@ -1,0 +1,54 @@
+:root {
+  --gitter: 15px;
+}
+
+.col-1 {
+  width: calc(10% - 1px);
+}
+.col-2 {
+  width: calc(20% - var(--gitter));
+}
+.col-3 {
+  width: calc(30% - var(--gitter));
+}
+.col-4 {
+  width: calc(40% - var(--gitter));
+}
+.col-6 {
+  width: calc(50% - var(--gitter));
+}
+.col-8 {
+  width: calc(59.7% - var(--gitter));
+}
+.col-9 {
+  width: calc(69.7% - var(--gitter));
+}
+.col-10 {
+  width: calc(79.7% - var(--gitter));
+}
+.col-11 {
+  width: calc(88.5% - var(--gitter));
+}
+.col-12 {
+  width: calc(100% - var(--gitter));
+}
+
+@media screen and (max-width: 992px) {
+  .conteiner {
+    max-width: 100%;
+  }
+  .col-lg-33 {
+    width: calc(33.33% - var(--gitter));
+  }
+}
+@media screen and (max-width: 768px) {
+  .col-md-6 {
+    width: calc(50% - var(--gitter));
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .col-sm-6 {
+    width: calc(100% - var(--gitter));
+  }
+}

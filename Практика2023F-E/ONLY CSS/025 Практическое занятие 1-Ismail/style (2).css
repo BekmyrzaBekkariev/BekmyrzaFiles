@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+.container {
+  /* Более менее стандартная ширина сайта */
+  width: 1170px;
+  /* 0-сверху и снизу , auto - по бокам автоматический размер*/
+  margin: 0 auto;
+}
+.menu__inner {
+  margin: 25px 0;
+  /* Разделаем лого рядом с текстом */
+  display: flex;
+  /* Отделяем лого от текста в концы сайта */
+  justify-content: space-between;
+  align-items: center;
+}
+.nav {
+  /* Выравниваем Меню */
+  display: flex;
+  /* Убираем круглишки li */
+  list-style: none;
+  /* Убираем не нужные места */
+  padding: 0;
+  margin: 0;
+}
+.nav li a {
+  /* Делаем все заглавными буквами */
+  text-transform: uppercase;
+  color: #999;
+  /* Убираем нижние послоски ссылок */
+  text-decoration: none;
+  padding: 10px 20px;
+}
+.nav li a:hover {
+  background-color: #ffc744;
+  color: #fff;
+  border-radius: 5px;
+}
