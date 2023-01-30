@@ -1,0 +1,34 @@
+* {
+  box-sizing: border-box;
+  font-family: arial;
+}
+
+.conteiner {
+  width: 1200px;
+  margin: 0 auto;
+}
+.box {
+  background-color: rgb(0, 208, 197);
+}
+.box__iner {
+  height: 250px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: #fff;
+  font-size: 20px;
+}
+.item {
+  align-items: center;
+}
+.text {
+  text-transform: uppercase;
+}
+i.fa {
+  display: contents;
+  font-size: 70px;
+}
+
+.item_icon {
+  padding-left: 5px;
+}

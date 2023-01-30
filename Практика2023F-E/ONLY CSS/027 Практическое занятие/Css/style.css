@@ -1,0 +1,52 @@
+* {
+  box-sizing: border-box;
+  font-family: arial;
+}
+
+.container {
+  width: 1170px;
+  margin: 0 auto;
+}
+.box {
+  background: rgb(0, 11, 65);
+  background: linear-gradient(
+    90deg,
+    rgba(0, 11, 65, 1) 0%,
+    rgba(22, 0, 190, 1) 100%
+  );
+}
+.box__iner {
+  height: 300px;
+  /* Чтобы распределить по ширине */
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.item {
+  text-align: center;
+}
+.number {
+  padding-top: 15px;
+  color: #fff;
+  font-size: 60px;
+}
+.text {
+  text-align: center;
+  color: rgb(73, 161, 255);
+  font-size: 25px;
+  margin-bottom: 25px;
+  text-transform: uppercase;
+}
+.line {
+  width: 30px;
+  height: 3px;
+  background-color: #fff;
+  align-items: center;
+  /* Выравнивание по центру линии с помощь margin Охренено */
+  margin: 0 auto;
+}
+
+i.fa {
+  font-size: 70px;
+  color: #fff;
+}

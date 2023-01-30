@@ -1,0 +1,48 @@
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  /* Даём ширину и ничего не видим */
+  width: 1170px;
+
+  /* И эту ширину мы центрируем */
+  margin: 0 auto;
+}
+.box__iner {
+  text-align: center;
+}
+h1 {
+  /* min-width: ; не пройдет от указонной ширины текст */
+  max-width: 570px;
+
+  /*   margin: 80px auto 0; с верхуу 80px по бокам auto и снизу 30px */
+  margin: 80px auto 30px;
+
+  /* Растояние между текстами высота*/
+  line-height: 40px;
+
+  /* Состояние текста */
+  font-weight: normal;
+}
+
+p {
+  max-width: 900px;
+
+  /* Выравниваем по центру */
+  margin: 0 auto 60px;
+  line-height: 30px;
+}
+
+.icon-box {
+  /* Зачем мы это сделали ? Все просто если когда ещё снизу будет контент то он слиплась бы что бы этого не было вот и это сделали margin-bottom: 60px; */
+  margin-bottom: 60px;
+}
+
+i.fa {
+  /* Мы не используем bgc а color */
+  color: rgb(29, 172, 172);
+  font-size: 70px;
+  /* Вот так и отдоляем друг от друга */
+  margin: 0 40px;
+}
