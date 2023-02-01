@@ -1,31 +1,45 @@
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 .container {
-    width: 1170px;
-    margin: 0 auto;
+  /* Вспомогательные линии */
+  border: 2px solid red;
+  width: 1170px;
+  margin: 0 auto;
 }
 .info {
-    background-color: #03251a;
+  /* Вспомогательные линии */
+  border: 3px solid blue;
+
+  background-color: #03251a;
 }
 .info__inner {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    height: 300px;
+  /* Вспомогательные линии */
+  border: 2px solid greenyellow;
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 300px;
 }
 .item {
-    text-align: center;
+  /* Вспомогательные линии */
+  border: 2px solid yellow;
+
+  text-align: center;
 }
 .number {
-    font-size: 75px;
-    color: #863f05;
-    font-weight: bold;
-    margin-bottom: 15px;
+  /* Вспомогательные линии */
+  border: 2px solid royalblue;
+
+  font-size: 75px;
+  color: #863f05;
+  font-weight: bold;
+  margin-bottom: 15px;
 }
 .text {
-    font-family: sans-serif;
-    text-transform: uppercase;
-    color: #fff;
-    font-size: 25px;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 25px;
 }

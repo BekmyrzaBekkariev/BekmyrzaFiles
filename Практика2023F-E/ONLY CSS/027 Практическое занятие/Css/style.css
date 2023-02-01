@@ -2,12 +2,10 @@
   box-sizing: border-box;
   font-family: arial;
 }
-
-.container {
-  width: 1170px;
-  margin: 0 auto;
-}
 .box {
+  /* Вспомогательные линии */
+  border: 4px solid red;
+
   background: rgb(0, 11, 65);
   background: linear-gradient(
     90deg,
@@ -15,7 +13,17 @@
     rgba(22, 0, 190, 1) 100%
   );
 }
+.container {
+  /* Вспомогательные линии */
+  border: 3px solid green;
+
+  width: 1170px;
+  margin: 0 auto;
+}
 .box__iner {
+  /* Вспомогательные линии */
+  border: 3px solid yellow;
+
   height: 300px;
   /* Чтобы распределить по ширине */
   display: flex;
@@ -23,6 +31,8 @@
   align-items: center;
 }
 .item {
+  /* Вспомогательные линии */
+  border: 3px solid green;
   text-align: center;
 }
 .number {
@@ -47,6 +57,9 @@
 }
 
 i.fa {
+  /* Вспомогательные линии */
+  border: 3px solid fuchsia;
+
   font-size: 70px;
   color: #fff;
 }

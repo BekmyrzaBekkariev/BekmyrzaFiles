@@ -1,0 +1,68 @@
+* {
+  box-sizing: border-box;
+}
+.box {
+  background-color: rgb(254, 255, 222);
+  /* Вспомогательные линии */
+  border: 3px green solid;
+}
+.container {
+  width: 1170px;
+  margin: 0 auto;
+
+  /* Вспомогательные линии */
+  border: 3px red solid;
+}
+img {
+  /* Вспомогательные линии */
+  border: 3px solid cyan;
+
+  width: 250px;
+}
+h2,
+p {
+  color: #5e5e5e;
+  line-height: 30px;
+}
+.box__iner {
+  border: 3px blue solid;
+  display: flex;
+  align-items: center;
+}
+.content {
+  /* Вспомогательные линии */
+  border: 3px solid violet;
+
+  max-width: 500px;
+  margin-right: 40px;
+}
+
+.icons > div {
+  height: 50px;
+  width: 50px;
+  border: 2px solid #30a740;
+  background-color: transparent;
+  font-size: 25px;
+  color: #30a740;
+  border-radius: 50%;
+  /* display: flex; — для блокового отображения; */
+  display: flex;
+
+  /* горизонтальное положение элементов или выравнивание*/
+  justify-content: center;
+  /* Свойство align-items задает выравнивание элементов вдоль поперечной оси. Короче вертикальное выравнивание*/
+  align-items: center;
+
+  /* CSS transitions предоставляют способ контролировать скорость анимации, при изменении CSS-свойств. Вместо того, чтобы свойство применилось сразу, вы можете сделать это действие происходящим в течение какого-то момента времени. Например, если вы смените цвет элемента с белого на чёрный, изменение произойдёт моментально, а вот с CSS transitions, изменения произойдут за временные интервалы, следующих кривой ускорения, все из которых могут быть настроены. */
+  transition: 0.2s;
+
+  /* появление руки при наведении на элемент */
+  cursor: pointer;
+
+  margin: 15px 0;
+}
+
+.icons > div:hover {
+  background-color: #30a740;
+  color: #fff;
+}

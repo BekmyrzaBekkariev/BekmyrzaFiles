@@ -1,8 +1,14 @@
 * {
   box-sizing: border-box;
 }
-
+.box {
+  /* Вспомогательные линии */
+  border: 3px solid green;
+}
 .container {
+  /* Вспомогательные линии */
+  border: 3px solid red;
+
   /* Даём ширину и ничего не видим */
   width: 1170px;
 
@@ -10,9 +16,15 @@
   margin: 0 auto;
 }
 .box__iner {
+  /* Вспомогательные линии */
+  border: 3px solid blue;
+
   text-align: center;
 }
 h1 {
+  /* Вспомогательные линии */
+  border: 3px solid violet;
+
   /* min-width: ; не пройдет от указонной ширины текст */
   max-width: 570px;
 
@@ -27,6 +39,9 @@ h1 {
 }
 
 p {
+  /* Вспомогательные линии */
+  border: 3px solid blueviolet;
+
   max-width: 900px;
 
   /* Выравниваем по центру */
@@ -35,11 +50,16 @@ p {
 }
 
 .icon-box {
+  /* Вспомогательные линии */
+  border: 3px solid khaki;
   /* Зачем мы это сделали ? Все просто если когда ещё снизу будет контент то он слиплась бы что бы этого не было вот и это сделали margin-bottom: 60px; */
   margin-bottom: 60px;
 }
 
 i.fa {
+  /* Вспомогательные линии */
+  border: 3px solid darkorange;
+
   /* Мы не используем bgc а color */
   color: rgb(29, 172, 172);
   font-size: 70px;

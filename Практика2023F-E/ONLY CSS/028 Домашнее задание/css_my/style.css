@@ -8,9 +8,13 @@
   margin: 0 auto;
 }
 .box {
+  /* Вспомогательные линии */
+  border: 3px solid red;
   background-color: rgb(0, 208, 197);
 }
 .box__iner {
+  /* Вспомогательные линии */
+  border: 3px solid blue;
   height: 250px;
   display: flex;
   justify-content: space-around;
@@ -19,6 +23,8 @@
   font-size: 20px;
 }
 .item {
+  /* Вспомогательные линии */
+  border: 3px solid green;
   align-items: center;
 }
 .text {
@@ -30,5 +36,7 @@ i.fa {
 }
 
 .item_icon {
+  /* Вспомогательные линии */
+  border: 3px solid yellowgreen;
   padding-left: 5px;
 }

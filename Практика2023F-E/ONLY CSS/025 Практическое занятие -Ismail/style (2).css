@@ -2,13 +2,24 @@
   box-sizing: border-box;
   font-family: sans-serif;
 }
+
+.menu {
+  /* Вспомогательные линии */
+  border: 2px solid red;
+}
 .container {
+  /* Вспомогательные линии */
+  border: 2px solid blue;
+
   /* Более менее стандартная ширина сайта */
   width: 1170px;
   /* 0-сверху и снизу , auto - по бокам автоматический размер*/
   margin: 0 auto;
 }
 .menu__inner {
+  /* Вспомогательные линии */
+  border: 2px solid green;
+
   margin: 25px 0;
   /* Разделаем лого рядом с текстом */
   display: flex;
@@ -16,7 +27,14 @@
   justify-content: space-between;
   align-items: center;
 }
+.logo {
+  /* Вспомогательные линии */
+  border: 2px solid violet;
+}
 .nav {
+  /* Вспомогательные линии */
+  border: 2px solid darkslateblue;
+
   /* Выравниваем Меню */
   display: flex;
   /* Убираем круглишки li */
